@@ -139,7 +139,7 @@ button,
   width: 100%;
   padding: 15px;
   padding-bottom: 50px;
-  background-color: #ffffff;
+  background-color: #f9faf8;
 }
 
 .course-info {
@@ -205,7 +205,7 @@ figcaption {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #ffffff;
+  background-color: #f9faf8;
   padding: 50px;
   width: 100%;
 }
@@ -226,4 +226,12 @@ figcaption {
 
 .action-time p:last-of-type{
   font-size: 15px;
+}
+
+.action-button {
+  padding: 5px 20px;
+  text-align: center;
+  color: #f9faf8;
+  border: 2px #f9faf8 solid;
+  border-radius: 5px;
 }
