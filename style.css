@@ -1,7 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
 body {
+  margin: unset;
   height: 100vh;
-  margin: 0;
-  overflow: scroll;
 }
 
 .roboto-page {
@@ -216,7 +223,7 @@ figcaption {
   align-items: center;
   background-color: #3882f6;
   width: 50%;
-  padding: 40px 60px;
+  padding: 30px 50px;
   border-radius: 4px;
 }
 
@@ -224,7 +231,7 @@ figcaption {
   font-weight: 600;
 }
 
-.action-time p:last-of-type{
+.action-time p:last-of-type {
   font-size: 15px;
 }
 
@@ -234,4 +241,24 @@ figcaption {
   color: #f9faf8;
   border: 2px #f9faf8 solid;
   border-radius: 5px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px;
+}
+
+.image-creators {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-creators p > a:first-of-type {
+  color: #3882f6;
 }
