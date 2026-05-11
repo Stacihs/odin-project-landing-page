@@ -167,7 +167,7 @@ button,
   max-width: 100%;
   height: auto;
   border: solid, #0d57ce, 2px;
-  border-radius: 6px;
+  border-radius: 7px;
 }
 
 .card p {
@@ -199,4 +199,31 @@ figcaption {
   margin-right: 20%;
   align-self: flex-end;
   font-weight: 600;
+}
+
+.sign-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 50px;
+  width: 100%;
+}
+
+.action-call {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3882f6;
+  width: 50%;
+  padding: 30px 50px;
+  border-radius: 4px;
+}
+
+.action-call p:first-of-type {
+  font-weight: 600;
+}
+
+.action-time p:last-of-type{
+  font-size: 15px;
 }
