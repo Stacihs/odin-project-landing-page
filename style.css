@@ -66,6 +66,7 @@ body {
 .logo h3 {
   color: #f9faf8;
   font-size: 24px;
+  font-weight: 400;
   margin: 10px;
 }
 
@@ -132,6 +133,7 @@ button,
 }
 
 .learning-image img {
+  border-radius: 10px;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -213,6 +215,7 @@ figcaption {
 
 .action-call {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   background-color: #3882f6;
