@@ -154,6 +154,7 @@ button,
 
 .cards {
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
   justify-content: center;
   align-items: flex-start;
@@ -259,5 +260,8 @@ footer * {
 }
 
 .project-course {
+  display: flex;
+  flex-wrap: wrap;
   color: #e5e7eb;
+  text-align: center;
 }
