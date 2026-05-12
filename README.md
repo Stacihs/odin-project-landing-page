@@ -4,4 +4,6 @@ This is a project in The Odin Project's [Foundation Course](https://www.theodinp
 
 This is the image that I had to match:
 
-<img src="images/landing-page-original.png" alt="fake website page" width="200" height="300">
+<img src="images/landing-page-original.png" alt="fake website page" width="200" height="300"> <br>
+
+My live page can be found here: [Staci's landing page project](https://staci-landing-page-odin.netlify.app/)
