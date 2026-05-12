@@ -18,16 +18,17 @@ body {
   font-variation-settings: "wdth" 100;
 }
 
-.container {
+.flex-column {
   display: flex;
   flex-direction: column;
+}
+
+.container {
   min-width: 100%;
   height: 100vh;
 }
 
 .hero {
-  display: flex;
-  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   width: 100%;
@@ -94,8 +95,6 @@ a {
 }
 
 .intro {
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: flex-start;
 }
@@ -139,8 +138,6 @@ button,
 }
 
 .information {
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -164,8 +161,6 @@ button,
 }
 
 .card {
-  display: flex;
-  flex-direction: column;
   align-items: center;
   width: 200px;
 }
@@ -186,8 +181,6 @@ button,
 }
 
 .quote {
-  display: flex;
-  flex-direction: column;
   align-items: center;
   background-color: #e5e7eb;
   width: 100%;
@@ -244,8 +237,6 @@ figcaption {
 }
 
 footer {
-  display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 15px;
