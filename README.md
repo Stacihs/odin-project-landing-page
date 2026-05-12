@@ -4,4 +4,4 @@ This is a project in The Odin Project's [Foundation Course](https://www.theodinp
 
 This is the image that I had to match:
 
-<img src="images/landing-page-original.png" alt="fake website page" width="200" height="400">
+<img src="images/landing-page-original.png" alt="fake website page" width="200" height="300">
